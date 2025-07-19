@@ -1,0 +1,23 @@
+cold-email-tracker/
+├── main.py
+├── database.py
+├── config.py
+├── services/
+│   ├── __init__.py
+│   ├── contact_service.py
+│   ├── followup_service.py
+│   └── template_service.py
+├── pages/
+│   ├── __init__.py
+│   ├── dashboard.py
+│   ├── import_data.py
+│   ├── followups.py
+│   ├── templates.py
+│   ├── analytics.py
+│   └── db_info.py
+├── components/
+│   ├── __init__.py
+│   ├── contact_card.py
+│   ├── metric_card.py
+│   └── status_badge.py
+└── requirements.txt
