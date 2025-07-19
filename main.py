@@ -4,6 +4,12 @@ from pages import dashboard, import_data, followups, templates, analytics, db_in
 from config import CSS_STYLES
 from database import init_database
 
+import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
 # Page configuration
 st.set_page_config(
     page_title="Cold Email Tracker",
